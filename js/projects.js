@@ -7,10 +7,11 @@ const PROJECTS = [
   {
     slug: "era-pro",
     title: "ERA Pro",
-    year: "", // TODO
-    tags: [], // TODO
-    summary: "", // TODO: one line for the home grid
-    description: "", // TODO: write-up for the project page
+    year: "2017–2024",
+    tags: ["Pax Labs", "Consumer hardware"],
+    summary: "Premium vaporizer and pods, concept through mass production.",
+    description:
+      "Led mechanical design across multiple generations of the Era platform at Pax, including the first Smart Pod and a pod assembly redesign that cut landed cost by ~25%.",
     cover: "01.jpeg",
     images: [
       "01.jpeg", "02.jpeg", "03.jpeg", "04.jpeg", "05.jpeg", "06.jpeg",
@@ -20,20 +21,22 @@ const PROJECTS = [
   {
     slug: "form-energy",
     title: "Form Energy",
-    year: "",
-    tags: [],
-    summary: "",
-    description: "",
+    year: "2024–2025",
+    tags: ["Form Energy", "Energy storage"],
+    summary: "Second-generation iron-air battery cell.",
+    description:
+      "First mechanical engineer on Form's second-generation iron-air cell. Owned the hardware from architecture studies through manufacturing and built the cell ME team.",
     cover: "01.webp",
     images: ["01.webp"],
   },
   {
     slug: "vortex-engine",
     title: "Vortex Engine",
-    year: "",
-    tags: [],
-    summary: "",
-    description: "",
+    year: "2011–2015",
+    tags: ["San Diego Composites", "Aerospace"],
+    summary: "Composite housings for a vortex rocket engine.",
+    description:
+      "Designed lightweight carbon fiber housings for a vortex rocket engine, packaging the nozzle inside the fuel tank. Built with filament winding and hand lay-up.",
     cover: "01.jpeg",
     images: ["01.jpeg", "02.jpeg", "03.jpeg", "04.jpeg", "05.jpeg", "06.jpeg"],
   },
@@ -41,8 +44,8 @@ const PROJECTS = [
     slug: "sdsu-rocket-project",
     title: "SDSU Rocket Project",
     year: "",
-    tags: [],
-    summary: "",
+    tags: ["San Diego State", "Aerospace"],
+    summary: "Student rocketry at San Diego State.",
     description: "",
     cover: "01.jpeg",
     images: ["01.jpeg", "02.jpeg", "03.jpeg", "04.jpeg", "05.jpeg"],
@@ -50,30 +53,33 @@ const PROJECTS = [
   {
     slug: "backspin",
     title: "Backspin",
-    year: "",
-    tags: [],
-    summary: "",
-    description: "",
+    year: "2015–2017",
+    tags: ["Nod Labs", "VR"],
+    summary: "Compact VR game controller.",
+    description:
+      "Grip and trigger mechanisms for a VR game controller at Nod Labs.",
     cover: "01.png",
     images: ["01.png", "02.jpeg", "03.jpeg", "04.jpeg", "05.jpeg"],
   },
   {
     slug: "nod-ring",
     title: "Nod Ring",
-    year: "",
-    tags: [],
-    summary: "",
-    description: "",
+    year: "2015–2017",
+    tags: ["Nod Labs", "Wearables"],
+    summary: "Wearable gesture-control ring.",
+    description:
+      "Drove manufacturing cost reductions that lowered the Nod Ring's BOM cost by ~30% without compromising performance.",
     cover: "01.jpeg",
     images: ["01.jpeg", "02.jpeg", "03.png"],
   },
   {
     slug: "goa",
     title: "GOA",
-    year: "",
-    tags: [],
-    summary: "",
-    description: "",
+    year: "2015–2017",
+    tags: ["Nod Labs", "VR"],
+    summary: "Tracked VR controller.",
+    description:
+      "VR controller with 360-degree tracking, developed through iterative electromechanical design at Nod Labs.",
     cover: "01.jpeg",
     images: [
       "01.jpeg", "02.jpeg", "03.jpeg", "04.jpeg",
@@ -85,7 +91,7 @@ const PROJECTS = [
     title: "Other Stuff",
     year: "",
     tags: [],
-    summary: "",
+    summary: "Prototypes and side projects.",
     description: "",
     cover: "01.jpeg",
     images: ["01.jpeg", "02.jpeg", "03.jpeg", "04.jpeg"],
