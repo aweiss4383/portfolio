@@ -5,14 +5,89 @@
 //   images: files shown on the project page, in order (inside the project folder)
 const PROJECTS = [
   {
-    slug: "sample-project",
-    title: "Sample Project",
-    year: "2026",
-    tags: ["Branding", "Print"],
-    summary: "One-line description shown on the home page.",
-    description:
-      "A longer write-up shown on the project page: the brief, your role, the process, and the outcome.",
-    cover: "cover.svg",
-    images: ["cover.svg"],
+    slug: "era-pro",
+    title: "ERA Pro",
+    year: "", // TODO
+    tags: [], // TODO
+    summary: "", // TODO: one line for the home grid
+    description: "", // TODO: write-up for the project page
+    cover: "01.jpeg",
+    images: [
+      "01.jpeg", "02.jpeg", "03.jpeg", "04.jpeg", "05.jpeg", "06.jpeg",
+      "07.jpeg", "08.webp", "09.webp", "10.webp", "11.jpeg", "12.jpeg",
+    ],
+  },
+  {
+    slug: "form-energy",
+    title: "Form Energy",
+    year: "",
+    tags: [],
+    summary: "",
+    description: "",
+    cover: "01.webp",
+    images: ["01.webp"],
+  },
+  {
+    slug: "vortex-engine",
+    title: "Vortex Engine",
+    year: "",
+    tags: [],
+    summary: "",
+    description: "",
+    cover: "01.jpeg",
+    images: ["01.jpeg", "02.jpeg", "03.jpeg", "04.jpeg", "05.jpeg", "06.jpeg"],
+  },
+  {
+    slug: "sdsu-rocket-project",
+    title: "SDSU Rocket Project",
+    year: "",
+    tags: [],
+    summary: "",
+    description: "",
+    cover: "01.jpeg",
+    images: ["01.jpeg", "02.jpeg", "03.jpeg", "04.jpeg", "05.jpeg"],
+  },
+  {
+    slug: "backspin",
+    title: "Backspin",
+    year: "",
+    tags: [],
+    summary: "",
+    description: "",
+    cover: "01.png",
+    images: ["01.png", "02.jpeg", "03.jpeg", "04.jpeg", "05.jpeg"],
+  },
+  {
+    slug: "nod-ring",
+    title: "Nod Ring",
+    year: "",
+    tags: [],
+    summary: "",
+    description: "",
+    cover: "01.jpeg",
+    images: ["01.jpeg", "02.jpeg", "03.png"],
+  },
+  {
+    slug: "goa",
+    title: "GOA",
+    year: "",
+    tags: [],
+    summary: "",
+    description: "",
+    cover: "01.jpeg",
+    images: [
+      "01.jpeg", "02.jpeg", "03.jpeg", "04.jpeg",
+      "05.jpeg", "06.jpeg", "07.jpeg", "08.jpeg",
+    ],
+  },
+  {
+    slug: "other-stuff",
+    title: "Other Stuff",
+    year: "",
+    tags: [],
+    summary: "",
+    description: "",
+    cover: "01.jpeg",
+    images: ["01.jpeg", "02.jpeg", "03.jpeg", "04.jpeg"],
   },
 ];
